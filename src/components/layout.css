@@ -667,6 +667,7 @@ header a{
 .main-container > div{
   min-height: 200px;
   background-size: cover;
+  background-position:50% ;
   background-attachment: fixed;
   background-color: rgba(51, 51, 51, 0.51);
   color: #ffffff;
