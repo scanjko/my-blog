@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -619,4 +621,76 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+}
+
+body{
+  font-family: 'Nanum Gothic', sans-serif!important;
+}
+
+html,
+body{
+  background: rgba(51, 51, 51, 0.84);
+}
+
+header,
+main,
+footer{
+  margin: 0 auto;
+  max-width: 768px;
+  background: #ffffff;
+}
+footer small{
+  text-align: center;
+  padding: 2rem 0;
+  display: block;
+}
+
+header{
+  padding: 2rem 1rem;
+  text-align: center;
+  font-weight: 800;
+
+}
+header a{
+  color: rgba(51, 51, 51, 0.84);
+  text-decoration: none;
+  font-weight: 800;
+}
+
+.main-container{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.main-container > div{
+  min-height: 200px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: rgba(51, 51, 51, 0.51);
+  color: #ffffff;
+  font-size: 2rem;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+
+}
+
+.main-container > div:nth-child(1){
+  grid-column: 1 / 3;
+}
+
+.main-container > div:nth-child(4){
+  grid-column: 1 / 3;
+}
+
+.bg-1{
+  background: url("./img/img1.jpg");
+}
+
+.bg-2{
+  background: url("./img/img2.jpg");
 }
